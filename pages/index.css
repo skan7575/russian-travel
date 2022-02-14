@@ -1,0 +1,11 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/font__inter.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/journey/journey.css);
+@import url(../blocks/see/see.css);
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/baikal/baikal.css);
+@import url(../blocks/footer/footer.css);

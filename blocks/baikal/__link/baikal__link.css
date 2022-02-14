@@ -1,0 +1,17 @@
+.baikal__link {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  transition: 0.4s ease-out;
+  /* Я не задублировал свойство, просто хочу чуть-чуть плавности и при возрващении в исходное положение */
+}
+.baikal__link:hover {
+  background: #2A2C2F;
+  opacity: 0.8;
+  transition: 0.4s ease-out;
+}

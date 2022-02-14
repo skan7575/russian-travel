@@ -1,0 +1,39 @@
+@import url(./__about/baikal__about.css);
+@import url(./__title/baikal__title.css);
+@import url(./__link/baikal__link.css);
+
+.baikal {
+  position: relative;
+  background-image: url(../../images/__overlay.jpg);
+  max-width: 1184px;
+  min-height: 740px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1279px) {
+  .baikal {
+    min-width: 1024px;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .baikal {
+    min-width: 768px;
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .baikal {
+    min-width: 320px;
+    min-height: 200px;
+    margin-top: 66px;
+  }
+}
