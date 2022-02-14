@@ -1,4 +1,11 @@
 .header__link-item {
   text-decoration: none;
   color: white;
+  transition: 0.4s ease-out;
+  /* Люблю когда анимации плавные а не резкие */
+}
+
+.header__link-item:hover {
+  opacity: 0.8;
+  transition: 0.4s ease-out;
 }
