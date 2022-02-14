@@ -1,0 +1,13 @@
+.place__about-text {
+  grid-column: 2 / -1;
+  grid-row: 2 / 3;
+}
+
+@media screen and (max-width: 767px) {
+  .place__about-text {
+    grid-column: 1;
+    grid-row: 4 / 4;
+    max-width: 288px;
+    padding:0 16px;
+  }
+}
