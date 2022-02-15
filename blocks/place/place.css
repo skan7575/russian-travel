@@ -1,11 +1,3 @@
-@import url(./__about/place__about.css);
-@import url(./__img/place__img.css);
-@import url(./__link/place__link.css);
-@import url(./__text/place__text.css);
-@import url(./__title/place__title.css);
-@import url(./__url/place__url.css);
-@import url(./__about-text/place__about-text.css);
-
 .place {
   display: grid;
   grid-template-columns: 1fr 1fr;
